@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D814F8B91E76F2616770DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE31775CBA67E9E0808BD145 /* Assets.xcassets */; };
+		0768E1C8EAA7A4084C597EB7 /* SessionPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A04DD24AB144BF23A47A6 /* SessionPlayerView.swift */; };
+		2727FEFF184EB66E600B7BB7 /* YogaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5CDB1189CF92806CF0B9A /* YogaApp.swift */; };
+		5EC5FC3CF0AF79E44D3A92FD /* SequencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883481D10BE706799D20C57 /* SequencesView.swift */; };
+		956480ED9C2224BAF1D6064F /* PoseFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667247F979D31C27C9CF3D0B /* PoseFigure.swift */; };
+		9CF1D2AA013AAA7C26660522 /* ScreenshotNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C4B33D02ED74C2F60947C9 /* ScreenshotNav.swift */; };
+		AFE3462BE2DF1792557845CC /* PoseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD71D31107E897E053153E /* PoseDetailView.swift */; };
+		BAE26E16BF2668C6B2277622 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F1FC290E6A486613D0ACDC /* AboutView.swift */; };
+		C249DBEE3AA3B2F34F634D60 /* PosesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0E7789A3CD577478A47F8A /* PosesView.swift */; };
+		CAA8EF40D5C4E43A291E0AC2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAEF8025C0165F54A4DA6D /* MainTabView.swift */; };
+		D0B1705FCEC055BFB4CDD650 /* Yoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558A7794B4901B51A227735 /* Yoga.swift */; };
+		E64CF6B59CA40A2390B2E096 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308AB8E99CD4E6161EDB9BF8 /* Theme.swift */; };
+		F3121BB4833FC754422818FB /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C1755E1A7D430830E1E5A /* FeedbackView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0558A7794B4901B51A227735 /* Yoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoga.swift; sourceTree = "<group>"; };
+		2AD5CDB1189CF92806CF0B9A /* YogaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaApp.swift; sourceTree = "<group>"; };
+		308AB8E99CD4E6161EDB9BF8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		34F1FC290E6A486613D0ACDC /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		48BAEF8025C0165F54A4DA6D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		56AD71D31107E897E053153E /* PoseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetailView.swift; sourceTree = "<group>"; };
+		667247F979D31C27C9CF3D0B /* PoseFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseFigure.swift; sourceTree = "<group>"; };
+		733A04DD24AB144BF23A47A6 /* SessionPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPlayerView.swift; sourceTree = "<group>"; };
+		8C0E7789A3CD577478A47F8A /* PosesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosesView.swift; sourceTree = "<group>"; };
+		AB8403219C76A85A029C9117 /* ZenAsana.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ZenAsana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE31775CBA67E9E0808BD145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C64C1755E1A7D430830E1E5A /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		C9C4B33D02ED74C2F60947C9 /* ScreenshotNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotNav.swift; sourceTree = "<group>"; };
+		D883481D10BE706799D20C57 /* SequencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04D02B03BFCE4F848A4C8FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8403219C76A85A029C9117 /* ZenAsana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1936F29F1916E65FC6523A71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE31775CBA67E9E0808BD145 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76496B04837DB4FEC0E6B138 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34F1FC290E6A486613D0ACDC /* AboutView.swift */,
+				C64C1755E1A7D430830E1E5A /* FeedbackView.swift */,
+				48BAEF8025C0165F54A4DA6D /* MainTabView.swift */,
+				56AD71D31107E897E053153E /* PoseDetailView.swift */,
+				667247F979D31C27C9CF3D0B /* PoseFigure.swift */,
+				8C0E7789A3CD577478A47F8A /* PosesView.swift */,
+				C9C4B33D02ED74C2F60947C9 /* ScreenshotNav.swift */,
+				D883481D10BE706799D20C57 /* SequencesView.swift */,
+				733A04DD24AB144BF23A47A6 /* SessionPlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B08B12E6B0FA3DDC96D2B2AF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				308AB8E99CD4E6161EDB9BF8 /* Theme.swift */,
+				2AD5CDB1189CF92806CF0B9A /* YogaApp.swift */,
+				FC8F687FBD3F1C0B87DA4471 /* Models */,
+				76496B04837DB4FEC0E6B138 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C56AF91AE30505C334F14A78 = {
+			isa = PBXGroup;
+			children = (
+				1936F29F1916E65FC6523A71 /* Resources */,
+				B08B12E6B0FA3DDC96D2B2AF /* Sources */,
+				04D02B03BFCE4F848A4C8FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8F687FBD3F1C0B87DA4471 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0558A7794B4901B51A227735 /* Yoga.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		235B1EE32522C0AF94299A43 /* ZenAsana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902A152B2A5B7A8646421993 /* Build configuration list for PBXNativeTarget "ZenAsana" */;
+			buildPhases = (
+				75E46C385D1E2C17BB6AF9A9 /* Sources */,
+				1E5D05932AF4AE69B0EC55EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenAsana;
+			packageProductDependencies = (
+			);
+			productName = ZenAsana;
+			productReference = AB8403219C76A85A029C9117 /* ZenAsana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9284591DCCF289D510347128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					235B1EE32522C0AF94299A43 = {
+						DevelopmentTeam = GU9WTSTX9M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7650A917ECEC03FCAB9D69A /* Build configuration list for PBXProject "ZenAsana" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C56AF91AE30505C334F14A78;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04D02B03BFCE4F848A4C8FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				235B1EE32522C0AF94299A43 /* ZenAsana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5D05932AF4AE69B0EC55EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D814F8B91E76F2616770DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E46C385D1E2C17BB6AF9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE26E16BF2668C6B2277622 /* AboutView.swift in Sources */,
+				F3121BB4833FC754422818FB /* FeedbackView.swift in Sources */,
+				CAA8EF40D5C4E43A291E0AC2 /* MainTabView.swift in Sources */,
+				AFE3462BE2DF1792557845CC /* PoseDetailView.swift in Sources */,
+				956480ED9C2224BAF1D6064F /* PoseFigure.swift in Sources */,
+				C249DBEE3AA3B2F34F634D60 /* PosesView.swift in Sources */,
+				9CF1D2AA013AAA7C26660522 /* ScreenshotNav.swift in Sources */,
+				5EC5FC3CF0AF79E44D3A92FD /* SequencesView.swift in Sources */,
+				0768E1C8EAA7A4084C597EB7 /* SessionPlayerView.swift in Sources */,
+				E64CF6B59CA40A2390B2E096 /* Theme.swift in Sources */,
+				D0B1705FCEC055BFB4CDD650 /* Yoga.swift in Sources */,
+				2727FEFF184EB66E600B7BB7 /* YogaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03F10CF8E6B86521B562BD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tertiaryinfotech.zenasana;
+				PRODUCT_NAME = ZenAsana;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C9EAF1DDA5DD47ADFD8D806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tertiaryinfotech.zenasana;
+				PRODUCT_NAME = ZenAsana;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EFC6F42E222BAE581880133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GU9WTSTX9M;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF03B4B9E6F61382F38E4B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GU9WTSTX9M;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902A152B2A5B7A8646421993 /* Build configuration list for PBXNativeTarget "ZenAsana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9EAF1DDA5DD47ADFD8D806 /* Debug */,
+				03F10CF8E6B86521B562BD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7650A917ECEC03FCAB9D69A /* Build configuration list for PBXProject "ZenAsana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF03B4B9E6F61382F38E4B71 /* Debug */,
+				9EFC6F42E222BAE581880133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9284591DCCF289D510347128 /* Project object */;
+}

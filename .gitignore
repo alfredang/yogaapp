@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+.env.*
+*.p8
+*.pem
+*.key
+*.p12
+
+# Playwright MCP snapshots (may contain credentials)
+.playwright-mcp/
+
+# Build artifacts
+build/
+build-sim/
+DerivedData/
+*.xcarchive
+ZenAsana.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# Captured simulator screenshots (large; one is used as screenshot.png)
+shots/
+
+.DS_Store
