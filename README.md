@@ -4,6 +4,12 @@ A calm, native **iOS yoga practice app** built with SwiftUI. Browse essential yo
 poses with animated figures and stance guidance, then flow through popular timed
 sequences with a guided session player — all in a clean, distraction-free white theme.
 
+<a href="https://apps.apple.com/us/app/zenasana/id6782540959">
+  <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="48">
+</a>
+
+📲 **[Download ZenAsana on the App Store](https://apps.apple.com/us/app/zenasana/id6782540959)**
+
 ![ZenAsana — Poses](screenshot.png)
 
 ## Features
